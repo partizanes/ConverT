@@ -38,7 +38,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ClosedXML">
-      <HintPath>..\install\ClosedXML.dll</HintPath>
+      <HintPath>bin\Release\ClosedXML.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -57,6 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="computer.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\ClosedXML.fakes" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
